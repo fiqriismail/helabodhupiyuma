@@ -3,5 +3,15 @@ module.exports = {
     siteUrl: "https://www.yourdomain.tld",
     title: "Hela Bodhu Piyuma",
   },
-  plugins: [],
+  plugins: [
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Noto Sans Sinhala`,
+          `Noto Serif Sinhala`
+        ]
+      }
+    }
+  ],
 };
